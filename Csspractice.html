@@ -6,7 +6,7 @@
     <p style = "font-Family:Arial; font-weight:Bold;">Free Delivery Tomorrow</p>
 
 
-<a href = "https://amazon.com"> <button Class = Add-to-Cart>Add to Cart</button></a>
+<button Class = Add-to-Cart>Add to Cart</button>
 <button class = Buy-Now >Buy Now</button>
 
 <style>
@@ -19,8 +19,24 @@
       margin: 10px;
       border-radius: 19px;
       cursor: pointer;
+      transition:0.19s
+      
     }
 
+  .Add-to-Cart:hover{
+    background-color: green;
+    color:white
+  }
+  .Add-to-Cart:active{
+    background-color:black;
+  }
+
+  .Buy-Now:hover{
+    background-color: purple;
+    color:rgb(255,164,28);
+    box-shadow: 3px 5px 5px rgb(163, 161, 153);
+  }
+    
     .Buy-Now{
       Border:none;
       height: 40px;
@@ -28,6 +44,8 @@
       background-color: rgb(255,164,28);
       font-weight: 600;
       border-radius: 20px;
+      transition: 0.18s;
+      
     }
     
 </style>
