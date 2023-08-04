@@ -1,0 +1,35 @@
+.mainpic{
+  width:250px;
+  margin-bottom: 0px;
+}
+.catinfo{
+  background-color: aquamarine;
+  display:inline-block;
+  vertical-align: top;
+}
+.buttonsegment{
+  background-color: aqua;
+  display:inline-block;
+  margin-top:0px;
+  margin-left:50px;
+  vertical-align: top;
+  
+}
+.button{
+  border:10px;
+  margin-top:0px;
+  border-color: black;
+  margin-top:5px;
+  background-color:red;
+  border-radius:20px;
+  font-family:Roboto;
+  font-size: 25px;
+  vertical-align:top;
+  width:125px;
+  height:80px;
+  margin-top:none;
+}
+.Maindiv{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
