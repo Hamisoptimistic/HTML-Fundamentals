@@ -1,0 +1,50 @@
+.thumb1{
+  Width:250px;
+  background-color: blanchedalmond;
+}
+.videotitle{
+  font-size: 18px;
+  font-weight: 700;
+  color: #000000;
+  font-family:roboto, Helvetica, sans-serif;
+  margin-bottom:0px;
+  margin-top: 10px;
+}
+.videoauthor{
+  font-size: 15px;
+  font-weight: 500;
+  color: #000000;
+  font-family:roboto, Helvetica, sans-serif;
+  margin-top: 5px;
+  margin-bottom:0px;
+  background-color: yellowgreen;
+}
+.videoinfo{
+  font-size: 15px;
+  font-weight: 500;
+  color: #000000;
+  font-family:roboto,; Helvetica, sans-serif;
+  margin-top:5px;
+  background-color: red;
+}
+.profilepic{
+  width: 60px;
+  border-radius: 40px;
+  vertical-align: top;
+  margin-top: 10px;
+  background-color: blueviolet;
+
+}
+.videostats{
+  display: inline-block;
+  width:180px;
+  vertical-align: top;
+  margin-left: 10px;
+  background-color: blue;
+
+  
+}
+.hori{
+  display: inline-block;
+  background-color: lavender;
+}
