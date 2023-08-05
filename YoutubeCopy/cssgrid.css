@@ -1,0 +1,51 @@
+.thumbnail{
+    width:300px;
+    display: inline-block;
+}
+.imagediv{
+    width:300px;
+}
+.channeldiv{
+    display: inline-block;
+}
+.channelinfodiv{
+    margin-left:12px;
+    font-family: Roboto,Arial;
+    vertical-align: top;
+    width:250px;
+    margin-left: 10px;
+    display:inline-block;
+    
+
+}
+.channelpic{
+    vertical-align: top;
+    border-radius: 75px;
+    display:inline-block;
+    width:50px;
+    margin-left:0px;
+    
+}
+.videotitle{
+    font-family: Roboto;
+    font-size:;
+    font-weight:700;
+    margin-top:5px;
+    margin-bottom:0px;
+    
+}
+.videoauthor{
+    margin: top 0px;
+}
+.seconDiv{
+    display: flex;
+}
+.bottomdiv{
+    display:inline-block;
+}
+.imagediv{
+    display:inline-block;
+}
+.firdiv{
+    display:inline-block;
+}
