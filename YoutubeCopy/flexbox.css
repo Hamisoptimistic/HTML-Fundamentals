@@ -1,15 +1,191 @@
 .Div1{
-  background-color: aquamarine;
+  height:20px;
+  width:250px;
+  
+  display:flex;
+  align-items: center;
+  
+}
+.searchbutton{
+    
+  font-family: Roboto;
+  font-weight: 500;
+  flex:1;
+  border: 1px solid gray;
+  height:35px;
+  flex:1;
+  background-color: rgb(245, 245, 245);
+  max-width:500px;
 }
 .Div2{
-  background-color: red;
+  display:flex;
+  flex:1;
+  
+}
+
+.Div3{
+  background-color:peru;
+  width:300px;
+  margin-right: 0;
 }
 .Container1{
-
+  margin-top: 10px;
   display:flex;
   flex-direction:row;
+  height:50px;
+  
+  justify-content: space-between;
+  align-items: center;
+  height:55px;
+  margin-bottom: 10px;
+  
 }
-.bodydiv{
-  display:inline-block;
-   
+
+.hamburger-menu{
+  height:25px;
+  margin-left:20px;
+  margin-right:23px;
+}
+
+.youtube-logo{
+  height:25px;
+}
+
+.voicesearch-button{
+  height:20px;
+}
+
+.voice-search{
+  height:20px;
+}
+.searchicon{
+  height:20px;
+}
+.searchbutton-button{
+  height:20px;
+  margin-left: -4px;
+}
+
+
+
+
+
+
+
+
+.header{
+  display:flex;
+  justify-content: space-between;
+  background-color:rgb(14 14 16);
+  height:40px;
+  padding-top: 4px;
+  padding-bottom: 8px;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.leftsection{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.twitch-logo{
+  height:35px;
+  margin: 5px;
+  width:100%;
+
+}
+.twitch-logo:hover{
+  cursor: pointer;
+}
+.browse:hover{
+  color:rgb(169, 112, 255);
+ 
+}
+.browse{
+  font-family: Roobert, Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  Color:rgb(239, 239, 241);
+  font-weight:500;
+  margin-left: 6px;
+  font-size: 18px;
+  transition: 0.2s;
+  margin-top: 28px;
+
+}
+
+
+
+
+.middlesection{
+  
+  display:flex;
+}
+
+.search-bar{
+  height:30px;
+  border-radius: 15px;
+  border:none;
+  border-width: 1.8px;
+  border-color: rgb(169, 112, 255);
+  border-style:solid;
+  background-color: rgb(14 14 16);
+  flex:1;
+  width:500px; 
+  color:white;
+  padding-left:10px;
+
+  
+}
+.search-button{
+  height:36px;
+  margin-left: 10px;
+  border-radius: 18px;
+  border:none;
+  border-width: 1.8px;
+  border-color: rgb(169, 112, 255);
+  border-style:solid;
+  background-color: rgb(14 14 16);
+  padding-left:10px;
+  padding-right:10px;
+  color:White;
+  
+}
+.rightsection{
+  
+  display: flex;
+  align-items: center;
+}
+.Login-button{
+  margin:none;
+  height:36px;
+  background-color:rgba(83, 83, 95);
+  width:58px;
+  color:White;
+  border-radius: 5px;
+  font-family: Roobert, Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-right: 13px;
+  border:1px;
+}
+.signup-button{
+  margin-right: 13px;
+  height:34px;
+  background-color:rgb(169, 112, 255);
+  color:black;
+  font-family: Roobert, Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border:1px;
+  border-width: 1.8px;
+  border-color: rgb(169, 112, 255);
+  border-style:solid;
+  width:58px;
+  border-radius: 5px;}
+
+.profilepic-button{
+  margin:none;
+  height:34px;
+  background-color:rgb(14 14 16) ;
+  color:White;
+  border:1px;
+  margin-right:10px;
+  margin-top:6px;
 }

@@ -6,12 +6,16 @@
     width:300px;
 }
 .channeldiv{
-    
 
 }
+body{
+    margin:0;
+    background-color: rgb(14 14 16);
+  }
 .channelinfodiv{
     margin-left:12px;
     font-family: Roboto,Arial;
+    color:white;
     vertical-align: top;
     width:100%;
     margin-left: 30px;
@@ -29,14 +33,17 @@
 .videotitle{
     font-family: Roboto;
     font-size:15px;
-    font-weight:700;
+    font-weight:500;
     margin-top:5px;
     margin-bottom:0px;
+    
+    
     
     
 }
 .videoauthor{
     margin: top 0px;
+    color:white;
 }
 .secondDiv{
     display: flex;
@@ -59,13 +66,4 @@
     row-gap:10px;
 
 }
-.searchbutton{
-    margin-bottom: 10px;
-    font-family: Roboto;
-    font-weight: 500;
-    width:500px;
-    border: 2px solid Black;
-    border-radius: 250px;
-    
 
-} 
