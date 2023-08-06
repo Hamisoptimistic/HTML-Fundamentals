@@ -1,0 +1,15 @@
+.Div1{
+  background-color: lightblue;
+}
+.Div2{
+  background-color: lightgreen;
+}
+.container1{
+  Display:grid;
+  Grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.container2{
+  Display:grid;
+  Grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 20px;
+}

@@ -1,0 +1,15 @@
+.Div1{
+  background-color: aquamarine;
+}
+.Div2{
+  background-color: red;
+}
+.Container1{
+
+  display:flex;
+  flex-direction:row;
+}
+.bodydiv{
+  display:inline-block;
+   
+}

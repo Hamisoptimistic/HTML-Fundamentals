@@ -59,3 +59,13 @@
     row-gap:10px;
 
 }
+.searchbutton{
+    margin-bottom: 10px;
+    font-family: Roboto;
+    font-weight: 500;
+    width:500px;
+    border: 2px solid Black;
+    border-radius: 250px;
+    
+
+} 

@@ -1,5 +1,5 @@
 .thumb1{
-  Width:250px;
+  
   background-color: blanchedalmond;
 }
 .videotitle{
@@ -47,4 +47,9 @@
 .hori{
   display: inline-block;
   background-color: lavender;
+}
+.videogrid{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 
 }
