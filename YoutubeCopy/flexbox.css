@@ -68,11 +68,6 @@
 
 
 
-
-
-
-
-
 .header{
   display:flex;
   justify-content: space-between;
@@ -82,18 +77,22 @@
   padding-bottom: 8px;
   border-radius: 10px;
   align-items: center;
+  box-shadow: outset(0,0,42px);
 }
 
 .leftsection{
   display:flex;
   align-items: center;
   justify-content: space-between;
+  flex-shrink: 0;
+  margin-right: 10px;
   
 }
 .twitch-logo{
   height:35px;
   margin: 5px;
   width:100%;
+  margin:none;
 
 }
 .twitch-logo:hover{
@@ -104,9 +103,9 @@
  
 }
 .browse{
-  font-family: Roobert, Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Roboto, Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
   Color:rgb(239, 239, 241);
-  font-weight:500;
+  font-weight:700;
   margin-left: 6px;
   font-size: 18px;
   transition: 0.2s;
@@ -118,20 +117,20 @@
 
 
 .middlesection{
-  
+  width:500px;
   display:flex;
 }
 
 .search-bar{
   height:30px;
-  border-radius: 15px;
+  border-radius: 10.69px;
   border:none;
   border-width: 1.8px;
   border-color: rgb(169, 112, 255);
   border-style:solid;
   background-color: rgb(14 14 16);
   flex:1;
-  width:500px; 
+  width:0;
   color:white;
   padding-left:10px;
 
@@ -151,6 +150,7 @@
   color:White;
   
 }
+
 .rightsection{
   
   display: flex;
@@ -163,22 +163,39 @@
   width:58px;
   color:White;
   border-radius: 5px;
-  font-family: Roobert, Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Roboto, Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-right: 13px;
   border:1px;
+  font-weight: 700;
+  letter-spacing: 1.41px;
+  transition: 0.2s;
+}
+.Login-button:hover{
+  background-color:rgb(169, 112, 255);
 }
 .signup-button{
-  margin-right: 13px;
-  height:34px;
+  margin-right: 10px;
+  height:35px;
   background-color:rgb(169, 112, 255);
-  color:black;
-  font-family: Roobert, Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color:white;
+  font-family: Roboto, Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
   border:1px;
   border-width: 1.8px;
   border-color: rgb(169, 112, 255);
   border-style:solid;
-  width:58px;
-  border-radius: 5px;}
+  width:60px;
+  border-radius: 5px;
+  font-weight: 700;
+  letter-spacing: 1.41px;
+  padding-left: 4px;
+  transition: 0.2s;
+}
+
+.signup-button:hover{
+  cursor: pointer;
+  background-color: rgb(107, 24, 230);
+  
+}
 
 .profilepic-button{
   margin:none;
