@@ -78,12 +78,14 @@
   align-items: center;
   box-shadow: outset(0,0,42px);
   position:fixed;
-  top:0.01px;
+  top:0px;
   left:0px;
   right:0px;
   border-bottom-width: 1.5px;
   border-bottom-color: black;
   border-bottom-style: solid;
+  z-index:100;
+  
 
 
 }
@@ -95,6 +97,29 @@
   flex-shrink: 0;
   margin-right: 10px;
   
+}
+.sidebar{
+  position:fixed;
+  color:white;
+  background-color:rgb(24, 25, 26);
+  top:48px;
+  bottom:0px;
+  left:3px;
+  width:60px;
+  border-radius: 2px;
+  z-index:200;
+}
+  
+
+
+.sidebar-content{
+  display:flex;
+  justify-content: space-between;
+  justify-content: center;
+  margin-bottom: 50px;
+  height:70px;
+  flex-direction: column;
+  align-items: center;
 }
 .twitch-logo{
   height:35px;
