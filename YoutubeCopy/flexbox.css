@@ -71,13 +71,21 @@
 .header{
   display:flex;
   justify-content: space-between;
-  background-color:rgb(14 14 16);
-  height:40px;
+  background-color:rgb(24,25,26);
+  height:33.8px;
   padding-top: 4px;
   padding-bottom: 8px;
-  border-radius: 10px;
   align-items: center;
   box-shadow: outset(0,0,42px);
+  position:fixed;
+  top:0.01px;
+  left:0px;
+  right:0px;
+  border-bottom-width: 1.5px;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+
+
 }
 
 .leftsection{
@@ -100,11 +108,12 @@
 }
 .browse:hover{
   color:rgb(169, 112, 255);
+
  
 }
 .browse{
   font-family: Roboto, Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  Color:rgb(239, 239, 241);
+  Color:rgb(230,231,232);
   font-weight:700;
   margin-left: 6px;
   font-size: 18px;
@@ -119,10 +128,12 @@
 .middlesection{
   width:500px;
   display:flex;
+  justify-content: center;
+  margin-top: 4px;
 }
 
 .search-bar{
-  height:30px;
+  height:28px;
   border-radius: 10.69px;
   border:none;
   border-width: 1.8px;
@@ -133,6 +144,7 @@
   width:0;
   color:white;
   padding-left:10px;
+  
 
   
 }
@@ -171,17 +183,17 @@
   transition: 0.2s;
 }
 .Login-button:hover{
-  background-color:rgb(169, 112, 255);
+  background-color:rgb(145,71,255);
 }
 .signup-button{
   margin-right: 10px;
   height:35px;
-  background-color:rgb(169, 112, 255);
+  background-color:rgb(145,71,255);
   color:white;
   font-family: Roboto, Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
   border:1px;
   border-width: 1.8px;
-  border-color: rgb(169, 112, 255);
+  border-color: rgb(145,71,255);
   border-style:solid;
   width:60px;
   border-radius: 5px;
