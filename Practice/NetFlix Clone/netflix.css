@@ -1,0 +1,78 @@
+body{
+  padding-bottom: 1000px;
+  font-family: Rubik;
+}
+* {margin:0;}
+
+.header{
+ background-color: rgb(14,23,43);
+ top:0;
+ left:0;
+ right:0;
+ height: 15vh;
+ color:rgb(226, 220, 220);
+ font-family: Rubik;
+
+}
+.header-elements{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  height:15vh;
+}
+
+.middle-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  column-gap: 26px;
+  margin-left: 70px;
+  align-items: center;
+}
+
+.left-section{
+  margin-right: 80px;
+  margin-left: 50px;
+  
+  align-items: center;
+  width:80px;
+  
+}
+
+.right-section{
+  margin-left:80px;
+  
+}
+.rd-logo{
+  height:40px;
+  width:40px;
+  
+}
+.search-button{
+  height:28px;
+  width:70px;
+  background-color:rgb(14,23,43);
+  color:rgb(226, 220, 220);
+  border-style:solid;
+  border-width:thin;
+  border-color: white;
+  border-radius: 10px;
+  align-items: center;
+  
+}
+.login-button{
+  
+}
+.page-heading{
+  height:250px;
+  background-color:rgb(14,23,43);
+  font-family: Rubik;
+  text-align: center;
+  Display:flex;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: 2px;
+  border-color: red;
+  border-bottom-style:solid ;
+  
+}
