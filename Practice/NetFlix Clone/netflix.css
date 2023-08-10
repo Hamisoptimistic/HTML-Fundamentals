@@ -1,6 +1,6 @@
 body{
   padding-bottom: 1000px;
-  font-family: Rubik;
+  
 }
 * {margin:0;}
 
@@ -12,7 +12,6 @@ body{
  height: 15vh;
  color:rgb(226, 220, 220);
  font-family: Rubik;
-
 }
 .header-elements{
   display:flex;
@@ -33,7 +32,6 @@ body{
 .left-section{
   margin-right: 80px;
   margin-left: 50px;
-  
   align-items: center;
   width:80px;
   
@@ -74,5 +72,17 @@ body{
   border-bottom: 2px;
   border-color: red;
   border-bottom-style:solid ;
-  
+  position: relative;   
+}
+
+.Container{
+  background-color: rgb(14,23,43);
+  height:412px;
+  font-family: Rubik;
+  Color:rgb(226, 220, 220);
+
+}
+.boxes{
+  background-color:RED;
+  color:red;
 }
