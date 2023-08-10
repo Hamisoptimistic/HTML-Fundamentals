@@ -80,9 +80,33 @@ body{
   height:412px;
   font-family: Rubik;
   Color:rgb(226, 220, 220);
+  
+  
+  
+ 
+  
+  
 
 }
-.boxes{
-  background-color:RED;
-  color:red;
+.Boxes{
+  background-color: rgb(14,23,43);
+  width:100px;
+  height:40px;
+  align-items: center;
+  align-content: center;
+  margin:auto;
+  border-radius: 6px;
+  Color:rgb(226, 220, 220);
+
+}
+.Grid{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  text-align: start;
+  padding-top: 10px;
+  width:0;
+  
+  
 }
