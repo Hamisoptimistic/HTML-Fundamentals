@@ -126,9 +126,13 @@ body{
   grid-template-columns: 1fr 1fr 1fr;
   grid-column-gap: 10px;
   grid-row-gap: 10px;
-  
+}
+.devops_svg{
+  max-height:60%;
+  max-width:60%;
+  padding:0;
+  margin-left: 75px;
+  display: inline-block;
+  vertical-align: middle;
 
-  
-  
-  
 }
